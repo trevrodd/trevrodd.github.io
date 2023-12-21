@@ -5,6 +5,12 @@ body {
     background-color: #f4f4f4;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -40,10 +46,6 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#contact {
-    text-align: center;
-}
-
 .contact-info p {
     margin: 0.5em 0;
 }
@@ -53,6 +55,7 @@ footer {
     padding: 1em;
     background-color: #333;
     color: #fff;
+    margin-top: auto;
 }
 
 a {
